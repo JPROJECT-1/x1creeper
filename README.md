@@ -66,7 +66,7 @@ Kami berharap X1Creeper dapat menjadi tempat tumbuhnya generasi yang **cerdas, b
 
 ## ⚠️ Lisensi
 
-Copyright (c) 2025 YCYL STUDIO  
+Copyright (c) 2025 X1Creeper  
 You may view this source code for educational purposes only.  
 Redistribution, modification, or commercial use is strictly prohibited without written permission from the author.
 
