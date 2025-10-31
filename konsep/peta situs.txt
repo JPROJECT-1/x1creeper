@@ -1,0 +1,11 @@
+peta situs:
+-Beranda
+-Profil
+-Galeri
+-Tentang
+
+beranda:
+-banner
+-Profil
+-Galeri
+-footer

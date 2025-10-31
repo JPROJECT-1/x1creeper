@@ -1,0 +1,565 @@
+/* kumpulan font */
+@font-face {
+    font-family: 'Minecraft-Bold';
+    src: url('../font/Minecraft-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../font/Minecraft.ttf') format('truetype');
+}
+
+/* website */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--background);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* font class */
+.font-minecraft-bold {
+    font-family: 'Minecraft-Bold';
+    letter-spacing: 2px;
+}
+
+.font-minecraft {
+    font-family: 'Minecraft';
+    letter-spacing: 2px;
+}
+
+/* konten */
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img-container {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner-bottom-box {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    background-color: var(--block);
+    border-radius: 20px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.banner-bottom-box h1 {
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.banner-bottom-box p {
+    width: 90%;
+    font-size: 15px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pengertian-utama {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.pengertian-utama h1 {
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.pengertian-utama p {
+    width: 90%;
+    font-size: 17px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.links-all {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.area-link-all {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-all {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.link-all h1 {
+    width: auto;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.link-all a {
+    font-size: 15px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-all a:hover {
+    background-color: white;
+    color: black;
+}
+
+.line-link-all {
+    width: 100%;
+    height: 4px;
+    background-color: var(--block);
+}
+
+/* profil */
+.profil {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    margin: 15px 0px;
+}
+
+.profil .card {
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.04);
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.profil .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    scale: 0.99;
+}
+
+.profil .media {
+    width: 100%;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.profil .caption {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.profil .caption .title {
+    font-weight: 600;
+    color: #fff;
+}
+
+.profil .caption .tugas {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+/* galeri */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    margin: 15px 0px;
+}
+
+.gallery .card {
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.04);
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.gallery .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    scale: 0.99;
+}
+
+.gallery .media {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.gallery .caption {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.gallery .caption .title {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    padding: 20px;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.8);
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* tentang */
+.tentang {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.tentang-area {
+    width: 90%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.tentang-area h1 {
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.tentang-area p {
+    width: 90%;
+    font-size: 17px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.developer-list {
+    color: white;
+    margin: 15px 0px;
+}
+
+.tentang-area h2 {
+    width: 90%;
+    font-size: 18px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.tentang-area li {
+    width: 90%;
+    font-size: 15px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tentang-area ul {
+    padding: 0px;
+    margin: 10px 0px;
+    padding-left: 20px;
+}
+
+
+/* test content */
+.content {
+    width: 100%;
+    height: 400px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.sosialmedia {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.sosialmedia h2 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sosialmedia-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.sosialmedia-link-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(38, 36, 35);
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.footer img {
+    width: auto;
+    height: 100%;
+    margin-right: 20px;
+}
+
+/* responsive */
+@media screen and (min-width: 650px) {
+    nav {
+        height: 70px;
+    }
+
+    .banner-bottom-box {
+        margin-top: -140px;
+    }
+
+    .banner-bottom-box {
+        width: 90%;
+    }
+
+    .banner-bottom-box h1 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .banner-bottom-box p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .pengertian-utama h1 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pengertian-utama p {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .tentang-area {
+        width: 90%;
+    }
+
+    .tentang-area h1 {
+        font-size: 25px;
+    }
+
+    .tentang-area p {
+        font-size: 17px;
+    }
+
+    .tentang-area h2 {
+        font-size: 20px;
+    }
+
+    .tentang-area li {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        height: 60px;
+    }
+
+    .banner-bottom-box {
+        margin-top: -50px;
+    }
+
+    .banner-bottom-box {
+        width: 85%;
+    }
+
+    .banner-bottom-box h1 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .banner-bottom-box p {
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .pengertian-utama h1 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .pengertian-utama p {
+        width: 85%;
+        font-size: 15px;
+    }
+
+    .tentang-area {
+        width: 85%;
+    }
+
+    .tentang-area h1 {
+        font-size: 20px;
+    }
+
+    .tentang-area p {
+        font-size: 15px;
+    }
+
+    .tentang-area h2 {
+        font-size: 18px;
+    }
+
+    .tentang-area li {
+        font-size: 15px;
+    }
+}
+
+.n {
+    display: none;
+}

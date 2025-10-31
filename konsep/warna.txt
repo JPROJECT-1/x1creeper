@@ -1,0 +1,4 @@
+warna dasar
+biru muda (warna background)
+putih (warna teks)
+kuning (warna tambahan/hiasan)

@@ -1,0 +1,49 @@
+Beranda (Home)
+Nama kelas (contoh: Kelas X-1).
+Foto bersama atau desain keren.
+Motto atau kata sambutan dari wali kelas.
+Tombol navigasi ke bagian lain.
+
+Profil Kelas
+Nama wali kelas (misal: Bu Betha).
+Ketua dan wakil kelas (misal: Fabel & Davis).
+Jumlah siswa.
+
+Daftar Anggota Kelas
+Nama lengkap, foto (opsional), dan mungkin hobi atau cita-cita.
+Bisa diberi filter “Laki-laki / Perempuan” atau “Urut nama A-Z”.
+Kalau mau keren, bisa pakai grid card style dengan efek hover
+
+Papan Informasi / Pengumuman
+Update kegiatan sekolah, tugas, lomba, atau ulangan.
+Bisa dibuat admin-only (wali kelas/ketua bisa posting via form).
+
+Galeri Foto / Video
+Dokumentasi kegiatan kelas: lomba, piknik, ulang tahun, dll.
+Bisa ditampilkan dalam bentuk slideshow atau grid.
+
+Jadwal dan Kalender
+Tampilkan jadwal pelajaran, ujian, atau event penting.
+Bisa disinkronkan dengan Google Calendar atau tampil manual.
+
+Tugas & File Sharing
+Tempat upload dan download tugas, catatan, atau hasil karya.
+Bisa disimpan dalam folder (misal: Bahasa Indonesia, Matematika, dll).
+
+Mode Gelap (Dark Mode)
+Sudah kekinian banget — pas untuk “Gen Z vibes” 😎
+
+Halaman “Tentang Kita”
+Cerita singkat tentang kelas (asal, tujuan, cita-cita bersama).
+Bisa tambahkan musik atau efek animasi lembut di background.
+
+Chat atau Forum Mini
+Untuk komunikasi antar anggota kelas (mirip Discord mini).
+
+Penghargaan Murid & Kelas
+
+
+
+
+
+gambar: https://placehold.co/100x100?text=Avatar&font=roboto

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sample 1",
+    "src": "https://placehold.co/1920x1080?text=1920x1080&font=roboto"
+  },
+  {
+    "name": "Sample 2",
+    "src": "https://placehold.co/1920x1080?text=1920x1080&font=roboto"
+  },
+  {
+    "name": "Sample 3",
+    "src": "https://placehold.co/1920x1080?text=1920x1080&font=roboto"
+  },
+  { "name": "Sample 1", "src": "../asset/galeri/img1.png" },
+  { "name": "Sample 2", "src": "../asset/galeri/img2.png" },
+  { "name": "Sample 3", "src": "../asset/galeri/img3.png" }
+]
