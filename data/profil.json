@@ -1,77 +1,77 @@
 [
   {
     "name": "Bu Betha",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/bubetha.png",
     "tugas": "Wali Kelas"
   },
   {
     "name": "Fabel",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/fabel.png",
     "tugas": "Ketua Kelas"
   },
   {
     "name": "Davis",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/davis.png",
     "tugas": "Wakil Kelas"
   },
   {
     "name": "Vanessa",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/vanessa.png",
     "tugas": "Sekretaris"
   },
   {
     "name": "Queen",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/queen.png",
     "tugas": "Sekretaris"
   },
   {
     "name": "Selia",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/selia.png",
     "tugas": "Bendahara"
   },
   {
     "name": "Athaya",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/athaya.png",
     "tugas": "Bendahara"
   },
   {
     "name": "Banua",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/banua.png",
     "tugas": "Keamanan"
   },
   {
     "name": "Aldo",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/aldo.png",
     "tugas": "Keamanan"
   },
   {
     "name": "Jason",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/jason.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Louis",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/louis.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Vivi",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/vivi.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Gaby",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/gaby.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Nata",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/nata.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Retha",
-    "src": "https://placehold.co/1080x1920?text=1080x1920&font=roboto",
+    "src": "../asset/profil/retha.png",
     "tugas": "Anggota kelas"
   }
 ]

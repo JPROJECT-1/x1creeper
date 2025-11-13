@@ -7,5 +7,8 @@
     "name": "Kemah Besar dan Penerimaan Tamu Ambalan Ampradakti",
     "src": "../asset/galeri/img2.png"
   },
-  { "name": "Bona Blastival", "src": "../asset/galeri/img3.png" }
+  {
+    "name": "Bona Blastival",
+    "src": "../asset/galeri/img3.png"
+  }
 ]

@@ -213,7 +213,7 @@ main {
 
 .profil .media {
     width: 100%;
-    aspect-ratio: 9/16;
+    aspect-ratio: 1/1;
     object-fit: cover;
     display: block;
     transition: transform 0.35s ease;
