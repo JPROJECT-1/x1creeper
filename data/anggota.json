@@ -1,77 +1,77 @@
 [
   {
     "name": "Bu Betha",
-    "src": "../asset/profil/bubetha.png",
+    "src": "../asset/anggota/bubetha.png",
     "tugas": "Wali Kelas"
   },
   {
     "name": "Fabel",
-    "src": "../asset/profil/fabel.png",
+    "src": "../asset/anggota/fabel.png",
     "tugas": "Ketua Kelas"
   },
   {
     "name": "Davis",
-    "src": "../asset/profil/davis.png",
+    "src": "../asset/anggota/davis.png",
     "tugas": "Wakil Kelas"
   },
   {
     "name": "Vanessa",
-    "src": "../asset/profil/vanessa.png",
+    "src": "../asset/anggota/vanessa.png",
     "tugas": "Sekretaris"
   },
   {
     "name": "Queen",
-    "src": "../asset/profil/queen.png",
+    "src": "../asset/anggota/queen.png",
     "tugas": "Sekretaris"
   },
   {
     "name": "Selia",
-    "src": "../asset/profil/selia.png",
+    "src": "../asset/anggota/selia.png",
     "tugas": "Bendahara"
   },
   {
     "name": "Athaya",
-    "src": "../asset/profil/athaya.png",
+    "src": "../asset/anggota/athaya.png",
     "tugas": "Bendahara"
   },
   {
     "name": "Banua",
-    "src": "../asset/profil/banua.png",
+    "src": "../asset/anggota/banua.png",
     "tugas": "Keamanan"
   },
   {
     "name": "Aldo",
-    "src": "../asset/profil/aldo.png",
+    "src": "../asset/anggota/aldo.png",
     "tugas": "Keamanan"
   },
   {
     "name": "Jason",
-    "src": "../asset/profil/jason.png",
+    "src": "../asset/anggota/jason.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Louis",
-    "src": "../asset/profil/louis.png",
+    "src": "../asset/anggota/louis.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Vivi",
-    "src": "../asset/profil/vivi.png",
+    "src": "../asset/anggota/vivi.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Gaby",
-    "src": "../asset/profil/gaby.png",
+    "src": "../asset/anggota/gaby.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Nata",
-    "src": "../asset/profil/nata.png",
+    "src": "../asset/anggota/nata.png",
     "tugas": "Anggota kelas"
   },
   {
     "name": "Retha",
-    "src": "../asset/profil/retha.png",
+    "src": "../asset/anggota/retha.png",
     "tugas": "Anggota kelas"
   }
 ]
