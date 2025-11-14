@@ -1,0 +1,8 @@
+**update x1creeper**
+
+#tambahan:
+-berita
+-admin langsung bisa mengatur data tanpa perantara (tanpa perantara, seperti: programer)
+
+#perubahan:
+-admin

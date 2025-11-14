@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Bu Betha",
+    "src": "../asset/profil/bubetha.png",
+    "tugas": "Wali Kelas"
+  },
+  {
+    "name": "Fabel",
+    "src": "../asset/profil/fabel.png",
+    "tugas": "Ketua Kelas"
+  },
+  {
+    "name": "Davis",
+    "src": "../asset/profil/davis.png",
+    "tugas": "Wakil Kelas"
+  },
+  {
+    "name": "Vanessa",
+    "src": "../asset/profil/vanessa.png",
+    "tugas": "Sekretaris"
+  },
+  {
+    "name": "Queen",
+    "src": "../asset/profil/queen.png",
+    "tugas": "Sekretaris"
+  },
+  {
+    "name": "Selia",
+    "src": "../asset/profil/selia.png",
+    "tugas": "Bendahara"
+  },
+  {
+    "name": "Athaya",
+    "src": "../asset/profil/athaya.png",
+    "tugas": "Bendahara"
+  },
+  {
+    "name": "Banua",
+    "src": "../asset/profil/banua.png",
+    "tugas": "Keamanan"
+  },
+  {
+    "name": "Aldo",
+    "src": "../asset/profil/aldo.png",
+    "tugas": "Keamanan"
+  },
+  {
+    "name": "Jason",
+    "src": "../asset/profil/jason.png",
+    "tugas": "Anggota kelas"
+  },
+  {
+    "name": "Louis",
+    "src": "../asset/profil/louis.png",
+    "tugas": "Anggota kelas"
+  },
+  {
+    "name": "Vivi",
+    "src": "../asset/profil/vivi.png",
+    "tugas": "Anggota kelas"
+  },
+  {
+    "name": "Gaby",
+    "src": "../asset/profil/gaby.png",
+    "tugas": "Anggota kelas"
+  },
+  {
+    "name": "Nata",
+    "src": "../asset/profil/nata.png",
+    "tugas": "Anggota kelas"
+  },
+  {
+    "name": "Retha",
+    "src": "../asset/profil/retha.png",
+    "tugas": "Anggota kelas"
+  }
+]

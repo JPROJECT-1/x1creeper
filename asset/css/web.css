@@ -190,14 +190,14 @@ main {
     background-color: var(--block);
 }
 
-/* profil */
-.profil {
+/* anggota */
+.anggota {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     margin: 15px 0px;
 }
 
-.profil .card {
+.anggota .card {
     border-radius: 10px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.04);
@@ -205,13 +205,13 @@ main {
     cursor: pointer;
 }
 
-.profil .card:hover {
+.anggota .card:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
     scale: 0.99;
 }
 
-.profil .media {
+.anggota .media {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -219,18 +219,18 @@ main {
     transition: transform 0.35s ease;
 }
 
-.profil .caption {
+.anggota .caption {
     padding: 10px 12px;
     font-size: 0.9rem;
     color: #9ca3af;
 }
 
-.profil .caption .title {
+.anggota .caption .title {
     font-weight: 600;
     color: #fff;
 }
 
-.profil .caption .tugas {
+.anggota .caption .tugas {
     display: block;
     font-size: 0.8rem;
     color: var(--muted);

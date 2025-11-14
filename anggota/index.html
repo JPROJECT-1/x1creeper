@@ -34,11 +34,11 @@
       content="https://jproject-1.github.io/x1creeper/asset/img/banner.png"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="asset/icon/favicon.ico" />
-    <link rel="apple-touch-icon" href="asset/icon/favicon.png" />
+    <link rel="icon" href="../asset/icon/favicon.ico" />
+    <link rel="apple-touch-icon" href="../asset/icon/favicon.png" />
     <link
       rel="shortcut icon"
-      href="asset/icon/favicon.ico"
+      href="../asset/icon/favicon.ico"
       type="image/x-icon"
     />
     <meta name="theme-color" content="#ffffff" />
@@ -50,56 +50,22 @@
       crossorigin="anonymous"
     />
 
-    <title>Beranda | X1Creeper</title>
-    <meta property="og:title" content="Beranda | X1Creeper" />
-    <meta name="twitter:title" content="Beranda | X1Creeper" />
+    <title>Anggota | X1Creeper</title>
+    <meta property="og:title" content="Anggota | X1Creeper" />
+    <meta name="twitter:title" content="Anggota | X1Creeper" />
     <meta property="og:url" content="https://jproject-1.github.io/x1creeper" />
-    <link rel="stylesheet" href="asset/css/root.css" />
-    <link rel="stylesheet" href="asset/css/web.css" />
+    <link rel="stylesheet" href="../asset/css/root.css" />
+    <link rel="stylesheet" href="../asset/css/web.css" />
+    <script src="../asset/js/anggota.js" defer></script>
   </head>
   <body>
     <main>
-      <div class="banner">
-        <div class="banner-img-container">
-          <img src="asset/img/banner.png" alt="Banner" class="banner-img" />
-        </div>
-        <div class="banner-bottom">
-          <div class="banner-bottom-box">
-            <h1 class="font-minecraft-bold">Selamat Datang di X1Creeper</h1>
-            <p class="font-minecraft">
-              Website Resmi Kelas X-1 SMAK Bonaventura Madiun
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="pengertian-utama">
-        <h1 class="font-minecraft-bold">Apa itu X1Creeper?</h1>
-        <p class="font-minecraft">
-          X1Creeper dibuat sebagai pusat informasi dan dokumentasi kegiatan
-          Kelas X-1. Melalui website ini, kami berbagi berita, prestasi, serta
-          momen kebersamaan selama menjalani tahun ajaran di SMAK Bonaventura
-          Madiun.
-        </p>
-      </div>
-      <div class="links-all">
-        <div class="area-link-all">
-          <div class="line-link-all"></div>
-          <div class="link-all">
-            <h1 class="font-minecraft">ANGGOTA</h1>
-            <a href="anggota/" class="font-minecraft">KUNJUNGI</a>
-          </div>
-          <div class="line-link-all"></div>
-          <div class="link-all">
-            <h1 class="font-minecraft">GALERI</h1>
-            <a href="galeri/" class="font-minecraft">KUNJUNGI</a>
-          </div>
-          <div class="line-link-all"></div>
-          <div class="link-all">
-            <h1 class="font-minecraft">TENTANG</h1>
-            <a href="tentang/" class="font-minecraft">KUNJUNGI</a>
-          </div>
-          <div class="line-link-all"></div>
-        </div>
+      <div class="anggota" id="anggota"></div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <span class="close font-minecraft" id="closeLightbox">x</span>
+        <img id="lightboxImage" src="" alt="Preview besar" />
       </div>
     </main>
     <footer>
@@ -116,7 +82,7 @@
       </div>
       <div class="footer">
         <p class="font-minecraft">© 2025 X1Creeper</p>
-        <img src="asset/icon/favicon.png" alt="Logo" />
+        <img src="../asset/icon/favicon.png" alt="Logo" />
       </div>
     </footer>
   </body>
