@@ -504,6 +504,14 @@ footer {
     .tentang-area li {
         font-size: 17px;
     }
+
+    .link-all h1 {
+        font-size: 20px;
+    }
+
+    .link-all a {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -544,19 +552,19 @@ footer {
     }
 
     .tentang-area h1 {
-        font-size: 20px;
-    }
-
-    .tentang-area p {
-        font-size: 15px;
-    }
-
-    .tentang-area h2 {
         font-size: 18px;
     }
 
-    .tentang-area li {
-        font-size: 15px;
+    .tentang-area p {
+        font-size: 13px;
+    }
+
+    .link-all h1 {
+        font-size: 18px;
+    }
+
+    .link-all a {
+        font-size: 13px;
     }
 }
 
