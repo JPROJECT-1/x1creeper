@@ -41,7 +41,7 @@
       href="../asset/icon/favicon.ico"
       type="image/x-icon"
     />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#171615" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="robots" content="index, follow" />
     <link
@@ -57,6 +57,34 @@
     <link rel="stylesheet" href="../asset/css/root.css" />
     <link rel="stylesheet" href="../asset/css/web.css" />
     <script src="../asset/js/galeri.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCor6yRZQoQV3Sp7VOFtCUIEr5LiQTxwOU",
+        authDomain: "x1creeper.firebaseapp.com",
+        projectId: "x1creeper",
+        storageBucket: "x1creeper.firebasestorage.app",
+        messagingSenderId: "171418550566",
+        appId: "1:171418550566:web:39ef46151004e899c5c1e7",
+        measurementId: "G-8N8C3CX9MG",
+      };
+      firebase.initializeApp(firebaseConfig);
+      var db = firebase.firestore();
+      async function ambilData() {
+        const arr = [];
+        const snap = await db.collection("galeri").get();
+        snap.forEach((doc) => {
+          const d = doc.data();
+
+          arr.push({
+            name: d.name || "",
+            src: d.src || "",
+          });
+        });
+        return arr;
+      }
+    </script>
   </head>
   <body>
     <main>

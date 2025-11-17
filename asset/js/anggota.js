@@ -1,16 +1,12 @@
-const JSON_URL = "../data/anggota.json";
-
 const anggotaContainer = document.getElementById("anggota");
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightboxImage");
 const closeBtn = document.getElementById("closeLightbox");
 
-// Fungsi load JSON
+// Ambil data dari Firestore
 async function loadAnggota() {
   try {
-    const res = await fetch(JSON_URL);
-    if (!res.ok) throw new Error("Gagal memuat JSON");
-    const data = await res.json();
+    const data = await ambilData(); // ← ambil dari Firestore milikmu
     renderAnggota(data);
   } catch (err) {
     console.error(err);
@@ -19,25 +15,38 @@ async function loadAnggota() {
   }
 }
 
-// Tampilkan galeri dari data JSON
+// Render + urutkan by id
 function renderAnggota(items) {
+  // Urutkan ID ASC
+  items = [...items].sort((a, b) => Number(a.id) - Number(b.id));
+
   anggotaContainer.innerHTML = "";
-  items.forEach((item, i) => {
+
+  items.forEach((it) => {
     const figure = document.createElement("figure");
     figure.className = "card";
+
     figure.innerHTML = `
-        <img class="media" src="${item.src}" alt="${item.name}" loading="lazy">
-        <figcaption class="caption">
-          <span class="title font-minecraft">${item.name}</span>
-          <span class="tugas font-minecraft">${item.tugas}</span>
-        </figcaption>
-      `;
-    figure.addEventListener("click", () => openLightbox(item.src, item.name));
+      <img class="media" 
+           src="https://admin-x1creeper.ct.ws/source/${it.src}" 
+           alt="${it.name}" 
+           loading="lazy">
+
+      <figcaption class="caption">
+        <span class="title font-minecraft">${it.name}</span>
+        <span class="tugas font-minecraft">${it.tugas}</span>
+      </figcaption>
+    `;
+
+    figure.addEventListener("click", () =>
+      openLightbox("https://admin-x1creeper.ct.ws/source/" + it.src, it.name)
+    );
+
     anggotaContainer.appendChild(figure);
   });
 }
 
-// Lightbox buka / tutup
+// Lightbox
 function openLightbox(src, alt) {
   lightboxImage.src = src;
   lightboxImage.alt = alt;
@@ -48,5 +57,5 @@ lightbox.onclick = (e) => {
   if (e.target === lightbox) lightbox.classList.remove("active");
 };
 
-// Jalankan saat halaman dimuat
+// Jalankan
 loadAnggota();
